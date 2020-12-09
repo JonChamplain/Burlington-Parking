@@ -9,9 +9,6 @@ fetch('./apikey')
     script.setAttribute('async', true)
     script.setAttribute('defer', true)
     document.body.appendChild(script)
-    console.log(script)
-    script = encodeURIComponent(script)
-    console.log(script)
     return script
   })
 
