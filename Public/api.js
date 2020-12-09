@@ -1,5 +1,4 @@
 let script = document.createElement('script')
-
 fetch('./apikey')
   .then((response) => {
     return response.text()
@@ -9,6 +8,7 @@ fetch('./apikey')
     script.setAttribute('async', true)
     script.setAttribute('defer', true)
     document.body.appendChild(script)
+
     return script
   })
 

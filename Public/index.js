@@ -12,6 +12,7 @@ window.addEventListener('resize', () => {
 });
 
 //***********Firebase Configuration ****************************************************************
+
 const config = {
   apiKey: "AIzaSyDDncdeP6mA3fRUTQXKhVbCIMmJ_qHk9q4",
   authDomain: "massive-marker-297817.firebaseapp.com",

@@ -5,6 +5,8 @@
   <title>Park Burlington</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 
@@ -59,11 +61,10 @@
         <h2>Welcome to Park Burlington!</h2>
       </div>
       <div class="disclaimer-body">
-        <p>Please note – this map should be used for reference purposes only. Refer to parking signage for official
+        <p>Please note – this map should be used for reference purposes only. Always refer to parking signage for official
           policy and regulations.</p>
         <p>Parking rates are listed in $ per hour unless otherwise noted.</p>
-        <p>Please submit questions or comments at ParkBurlington.com.</p>
-        <div id="disclaimer-accept"><button class="disclaimer-accept">Okay</button></div>
+        <div id="disclaimer-accept"><button class="disclaimer-accept">Ok</button></div>
       </div>
     </div>
   </div>
@@ -222,13 +223,24 @@
   <!-- The Firebase scripts MUST be before the src for index.js -->
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- <script src="/__/firebase/8.1.2/firebase-app.js"></script> -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- <script src="/__/firebase/8.1.2/firebase-analytics.js"></script> -->
+
+<!-- Initialize Firebase -->
+<!-- <script src="/__/firebase/init.js"></script> -->
 
   <script src='./index.js'></script>
   <!-- // This map requires the Places library. Include the libraries=places
   // parameter when you first load the API. For example: -->
-  <script src='./api.js'>
+  <!-- <script src='./api.js'> -->
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDncdeP6mA3fRUTQXKhVbCIMmJ_qHk9q4&callback=initMap"
+  type="text/javascript"></script>
 
-  </script>
+  <!-- </script> -->
 
 </body>
 
