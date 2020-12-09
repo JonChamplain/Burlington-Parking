@@ -43,8 +43,8 @@ button {
 }
 
 #about-image {
-  height: 33%;
-  margin-right: 4vh;
+  height: calc(var(--vh, 1vh) * 3.5);
+  margin-right: 3vh;
 }
 
 /* Map container */
